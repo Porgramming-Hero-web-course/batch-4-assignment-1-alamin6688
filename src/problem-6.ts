@@ -1,6 +1,7 @@
 {
   //
-  // Problem 05 Soluton:-F
+  // Problem 06 Soluton:-
+  
   interface Profile {
     name: string;
     age: number;
