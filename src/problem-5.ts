@@ -16,6 +16,6 @@
     return obj[key];
   }
   const Output = getProperty(person, "name");
-  //   console.log(Output);
+  // console.log(Output);
   //
 }

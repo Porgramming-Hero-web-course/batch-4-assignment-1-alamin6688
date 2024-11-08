@@ -1,7 +1,7 @@
 {
   //
   // Problem 06 Soluton:-
-  
+
   interface Profile {
     name: string;
     age: number;
@@ -19,6 +19,6 @@
   };
 
   const Output = updateProfile(myProfile, { email: "alamin@gmail.com" });
-  //   console.log(Output);
+  // console.log(Output);
   //
 }
