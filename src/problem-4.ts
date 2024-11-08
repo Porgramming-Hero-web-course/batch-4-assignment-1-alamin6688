@@ -22,7 +22,7 @@
   };
 
   const circleArea = calculateShapeArea({ shape: "circle", radius: 4 });
-  console.log(circleArea);
+  // console.log(circleArea);
 
   const rectangleArea = calculateShapeArea({
     shape: "rectangle",
