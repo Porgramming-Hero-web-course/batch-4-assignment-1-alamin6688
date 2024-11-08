@@ -13,15 +13,21 @@
       this.year = year;
     }
 
-    getCarAge(): number {
-      const currentYear = new Date().getFullYear();
-      return currentYear - this.year;
+    getCarAge(currentYear: number = new Date().getFullYear()) {
+      const carsAge = currentYear - this.year;
+      return console.log(
+        carsAge,
+        `(assuming current year is`,
+        currentYear,
+        `)`
+      );
     }
   }
 
   const car = new Car("BMW", "M8 Competition", 2016);
-
-  const Output = car.getCarAge();
+  car.getCarAge();
+  
+  // const Output = car.getCarAge();
   // console.log(Output);
 
   //
